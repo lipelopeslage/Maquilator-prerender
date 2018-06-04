@@ -1,0 +1,35 @@
+{
+  "name": "maquilator-prerender",
+  "description": "Maquilator prerender",
+  "tags": [
+    "http-proxy",
+    "trumpet",
+    "middleware",
+    "streaming",
+    "html"
+  ],
+  "version": "0.0.1",
+  "author": {
+    "name": "Felipe Lopes Lage",
+    "email": "x@x.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+    "harmon": "*",
+    "nodemon": "*"
+  },
+  "devDependencies": {
+    "connect": "^3.2.0",
+    "http-proxy": "^1.15.1"
+  },
+  "scripts": {
+    "start": "nodemon app/index.js"
+  },
+  "license": "MIT/X11"
+}
